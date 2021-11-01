@@ -10,7 +10,9 @@ jobs:
     - uses: actions/setup-python@v1
       with:
         python-version: '3.9'
-    - run: sudo /etc/init.d/mysql start
+    - run: |
+        sudo /etc/init.d/mysql start
+        systemctl status mysql.service
     - run: pip install tox
     - run: make lint
     - run: make ci
