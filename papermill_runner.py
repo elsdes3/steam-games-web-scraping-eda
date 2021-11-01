@@ -99,15 +99,15 @@ def run_notebooks(
 if __name__ == "__main__":
     nb_dict_list = [
         nine_dict,
-        six_dict,
-        seven_dict,
-        # ten_dict
+        # six_dict,
+        # seven_dict,
+        ten_dict
     ]
     nb_name_list = [
         nine_dict_nb_name,
-        six_dict_nb_name,
-        seven_dict_nb_name,
-        # ten_dict_nb_name,
+        # six_dict_nb_name,
+        # seven_dict_nb_name,
+        ten_dict_nb_name,
     ]
     notebook_list = [
         {os.path.join(PROJ_ROOT_DIR, nb_name): nb_dict}
