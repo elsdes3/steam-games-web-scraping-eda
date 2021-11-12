@@ -3,7 +3,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/elsdes3/steam-games-web-scraping-eda)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elsdes3/steam-games-web-scraping-eda/master/0_get_agg_data.ipynb)
 ![CI](https://github.com/elsdes3/steam-games-web-scraping-eda/workflows/CI/badge.svg)
-![CodeQL](https://github.com/edesz/steam-games-web-scraping-eda/workflows/CodeQL/badge.svg)
+![CodeQL](https://github.com/elsdes3/steam-games-web-scraping-eda/actions/workflows/codeql-analysis.yml/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/mit)
 ![OpenSource](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
