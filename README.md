@@ -109,7 +109,7 @@ High-level exploratory analysis will be performed in this project, by scraping d
 10. `9_download_cloud.ipynb`([view](https://nbviewer.jupyter.org/github/elsdes3/steam-games-web-scraping-eda/blob/main/9_download_cloud.ipynb))
     - download scraped data from presonal (private) cloud storage
 11. `10_selenium_to_db.ipynb`([view](https://nbviewer.jupyter.org/github/elsdes3/steam-games-web-scraping-eda/blob/main/10_selenium_to_db.ipynb))
-    - ETL to retrieve and clean raw data scraped with Selenium (from cloud storage) and append to a MySQL database
+    - ETL to retrieve and clean raw data scraped with Selenium, from personal (private) cloud storage, and append to a MySQL database
 
 ## [Notes](#notes)
 1. Web-scraping was started using the Selenium package and this was used to scrape approximately 50 pages of search results. However, due to very slow scraping speeds, the `requests` library was used to scrape the next few hundred pages of search results.
