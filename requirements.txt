@@ -12,6 +12,6 @@ sqlalchemy==1.4.27
 mysql-connector-python==8.0.27
 pymysql==1.0.2
 prefect==0.15.9
-fastparquet==0.7.0
+fastparquet==0.7.2
 pyarrow==6.0.1
 azure-storage-blob==12.9.0
