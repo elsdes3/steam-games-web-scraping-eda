@@ -20,15 +20,15 @@ jobs:
         systemctl status mysql.service
     - run: pip install tox
     - run: make lint
-    - run: make ci
-      env:
-        BLOB_NAME_PREFIX: ${{ secrets.BLOB_NAME_PREFIX }}
-        AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
-        AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
-        ENDPOINT_SUFFIX: ${{ secrets.ENDPOINT_SUFFIX }}
-        MYSQL_ADMIN_USER_NAME: ${{ secrets.MYSQL_ADMIN_USER_NAME }}
-        MYSQL_ADMIN_USER_PWD: ${{ secrets.MYSQL_ADMIN_USER_PWD }}
-        MYSQL_NON_ADMIN_USER_NAME: ${{ secrets.MYSQL_NON_ADMIN_USER_NAME }}
-        MYSQL_NON_ADMIN_USER_PWD: ${{ secrets.MYSQL_NON_ADMIN_USER_PWD }}
-        MYSQL_HOST: ${{ secrets.MYSQL_HOST }}
-        MYSQL_PORT: ${{ secrets.MYSQL_PORT }}
+#     - run: make ci
+#       env:
+#         BLOB_NAME_PREFIX: ${{ secrets.BLOB_NAME_PREFIX }}
+#         AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
+#         AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
+#         ENDPOINT_SUFFIX: ${{ secrets.ENDPOINT_SUFFIX }}
+#         MYSQL_ADMIN_USER_NAME: ${{ secrets.MYSQL_ADMIN_USER_NAME }}
+#         MYSQL_ADMIN_USER_PWD: ${{ secrets.MYSQL_ADMIN_USER_PWD }}
+#         MYSQL_NON_ADMIN_USER_NAME: ${{ secrets.MYSQL_NON_ADMIN_USER_NAME }}
+#         MYSQL_NON_ADMIN_USER_PWD: ${{ secrets.MYSQL_NON_ADMIN_USER_PWD }}
+#         MYSQL_HOST: ${{ secrets.MYSQL_HOST }}
+#         MYSQL_PORT: ${{ secrets.MYSQL_PORT }}
