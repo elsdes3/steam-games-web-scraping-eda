@@ -15,5 +15,5 @@ prefect==1.2.0
 fastparquet==0.8.0
 pyarrow==8.0.0
 azure-storage-blob==12.12.0
-boto3
-s3fs
+boto3 # pyup: ignore
+s3fs # pyup: ignore
