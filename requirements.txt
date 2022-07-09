@@ -14,6 +14,6 @@ pymysql==1.0.2
 prefect==1.2.2
 fastparquet==0.8.1
 pyarrow==8.0.0
-azure-storage-blob==12.12.0
+azure-storage-blob==12.13.0
 boto3 # pyup: ignore
 s3fs # pyup: ignore
