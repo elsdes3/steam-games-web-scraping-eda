@@ -9,7 +9,7 @@ lxml==4.9.1
 beautifulsoup4==4.11.1
 fake-useragent==0.1.11
 sqlalchemy==1.4.39
-mysql-connector-python==8.0.29
+mysql-connector-python==8.0.30
 pymysql==1.0.2
 prefect==1.2.4
 fastparquet==0.8.1
