@@ -1,19 +1,19 @@
 jupyter==1.0.0
 nb_black==1.0.7
-numpy==1.23.2
-pandas==1.4.3
-matplotlib==3.5.3
-seaborn==0.11.2
-selenium==4.5.0
+numpy==1.23.4
+pandas==1.5.1
+matplotlib==3.6.2
+seaborn==0.12.1
+selenium==4.6.0
 lxml==4.9.1
 beautifulsoup4==4.11.1
-fake-useragent==0.1.11
+fake-useragent==0.1.14
 sqlalchemy==1.4.44
-mysql-connector-python==8.0.30
+mysql-connector-python==8.0.31
 pymysql==1.0.2
-prefect==2.2.0
+prefect==2.6.7
 fastparquet==0.8.3
-pyarrow==9.0.0
-azure-storage-blob==12.13.1
+pyarrow==10.0.0
+azure-storage-blob==12.14.1
 boto3 # pyup: ignore
 s3fs # pyup: ignore
