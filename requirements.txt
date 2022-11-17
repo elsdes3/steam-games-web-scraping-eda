@@ -11,7 +11,7 @@ fake-useragent==0.1.14
 sqlalchemy==1.4.40
 mysql-connector-python==8.0.31
 pymysql==1.0.2
-prefect==2.2.0
+prefect==2.6.7
 fastparquet==0.8.3
 pyarrow==10.0.0
 azure-storage-blob==12.14.1
