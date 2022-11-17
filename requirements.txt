@@ -2,7 +2,7 @@ jupyter==1.0.0
 nb_black==1.0.7
 numpy==1.23.4
 pandas==1.5.1
-matplotlib==3.5.3
+matplotlib==3.6.2
 seaborn==0.12.1
 selenium==4.5.0
 lxml==4.9.1
