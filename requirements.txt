@@ -13,7 +13,7 @@ mysql-connector-python==8.0.31
 pymysql==1.0.2
 prefect==2.2.0
 fastparquet==0.8.3
-pyarrow==9.0.0
+pyarrow==10.0.0
 azure-storage-blob==12.14.1
 boto3 # pyup: ignore
 s3fs # pyup: ignore
